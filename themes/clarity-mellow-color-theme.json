@@ -1,0 +1,243 @@
+{
+	"name": "Clarity Mellow",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#171721",
+		"editor.foreground": "#FFFFFF",
+		"statusBar.background": "#1B1C1E",
+		"editor.findMatchBackground": "#FFDD00AA",
+		"editor.findMatchHighlightBackground": "#FFDD0077",
+		"editorInlayHint.background": "#FFFFFF00",
+		"editorInlayHint.foreground": "#FFFFFF60",
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"keyword": "#36DBA9",
+		"preprocessorKeyword": "#36DBA9A0",
+		"parameter": "#FF4080",
+		"selfParameter": "#36DBA9",
+		"variable.local": "#FFFFFFC0",
+		"local": "#FFFFFFC0",
+		"variable.global": "#EE3030",
+		"field": "#FF4040",
+		"property": "#FF4040",
+		"enumMember": "#FF4180",
+		"operator": "#FFFFFFA0",
+		"operatorOverloaded": "#FFFFFFA0",
+		"*.declaration": {
+			"bold": true,
+		}
+	},
+	"tokenColors": [
+		{
+			"name": "Keyword, Modifier",
+			"scope": [
+				"keyword",
+				"storage",
+				"variable.language",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#36DBA9"
+			}
+		},
+		{
+			"name": "Literals",
+			"scope": [
+				"constant",
+				"support.constant",
+				"string",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"string punctuation.definition.string",
+			],
+			"settings": {
+				"foreground": "#7373FF"
+			}
+		},
+		{
+			"name": "Escape Characters",
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "URL",
+			"scope": [
+				"*url*",
+				"*link*",
+				"*uri*",
+				"markup.underline.link",
+			],
+			"settings": {
+				"foreground": "#B0ACFE",
+				//"fontStyle": "underline",
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
+				"entity.name",
+			],
+			"settings": {
+				"foreground": "#FF9F40"
+			}
+		},
+		{
+			"name": "External Types",
+			"scope": [
+				"storage.type.core",
+				"support.class",
+				"support.type",
+				"storage.class.std",
+				"meta.inheritance-clause",
+				"meta.generic-where-clause",
+				"meta.import storage.modifier.import",
+			],
+			"settings": {
+				"foreground": "#FF9F40C0"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"variable.function",
+			],
+			"settings": {
+				"foreground": "#FF6F3F"
+			}
+		},
+		{
+			"name": "External Functions",
+			"scope": [
+				"support.function",
+				"keyword.other.special-method",
+			],
+			"settings": {
+				"foreground": "#FF6F3FD0"
+			}
+		},
+		{
+			"name": "Fields",
+			"scope": [
+				"variable.other.property",
+				"entity.name.tag.yaml",
+			],
+			"settings": {
+				"foreground": "#FF4040"
+			}
+		},
+		{
+			"name": "External Fields",
+			"scope": [
+				"support.constant",
+				"support.variable",
+				"support.other",
+			],
+			"settings": {
+				"foreground": "#FF4040D0"
+			}
+		},
+		{
+			"name": "Enum Cases",
+			"scope": [
+				"constant.other.enum",
+			],
+			"settings": {
+				"foreground": "#FF4180"
+			}
+		},
+		{
+			"name": "External Enum Cases",
+			"scope": [
+				"support.constant.other.enum",
+			],
+			"settings": {
+				"foreground": "#FF4180D0"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+			],
+			"settings": {
+				"foreground": "#FFFFFFC0"
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name",
+				"meta.attribute",
+				"storage.type.annotation",
+				"punctuation.definition.annotation"
+			],
+			"settings": {
+				"foreground": "#B536F8"
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": [
+				"punctuation",
+				"meta.tag",
+				"meta.type_params",
+				"meta.brace",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"keyword.operator",
+				"keyword.control.ternary",
+				"storage.type.function.arrow",
+			],
+			"settings": {
+				"foreground": "#FFFFFFA0",
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+			],
+			"settings": {
+				"foreground": "#6DA64EC0"
+			}
+		},
+		{
+			"name": "Documentation Comment",
+			"scope": [
+				"comment.line.triple-slash.documentation",
+				"comment.block.documentation",
+				"comment.line.documentation",
+			],
+			"settings": {
+				"foreground": "#6DA74E"
+			}
+		},
+		{
+			"name": "Documentation Comment Delimiters",
+			"scope": [
+				"comment.line.triple-slash.documentation punctuation.definition.comment",
+				"comment.block.documentation punctuation.definition.comment",
+			],
+			"settings": {
+				"foreground": "#6DA74E80"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+	]
+}

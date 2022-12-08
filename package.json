@@ -1,0 +1,27 @@
+{
+    "name": "clarity",
+    "displayName": "Clarity Themes",
+    "description": "Coherent light and dark themes with pretty colors.",
+    "publisher": "juliand665",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Clarity Bright",
+                "uiTheme": "vs",
+                "path": "./themes/clarity-bright-color-theme.json"
+            },
+            {
+                "label": "Clarity Mellow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/clarity-mellow-color-theme.json"
+            }
+        ]
+    }
+}
