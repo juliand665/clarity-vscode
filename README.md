@@ -4,11 +4,11 @@ This is a set of two themes, Clarity Bright and Clarity Mellow, providing a cohe
 
 ## Clarity Mellow
 
-<img src="readme/dark.png" alt="screenshot of some rust code with the dark theme" style="zoom:50%;" />
+<img src="readme/dark.png" alt="screenshot of some rust code with the dark theme" width="606px" />
 
 ## Clarity Bright
 
-<img src="readme/light.png" alt="screenshot of some rust code with the light theme" style="zoom:50%;" />
+<img src="readme/light.png" alt="screenshot of some rust code with the light theme" width="607px" />
 
 ## Setup
 
